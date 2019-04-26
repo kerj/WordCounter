@@ -2,3 +2,16 @@ D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.Tests\obj\D
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csproj.CoreCompileInputs.cache
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.AssemblyInfoInputs.cache
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.AssemblyInfo.cs
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.deps.json
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.runtimeconfig.json
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.runtimeconfig.dev.json
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.pdb
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\bin\Debug\netcoreapp2.2\WordCounter.pdb
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csproj.CopyComplete
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.dll
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter.tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.pdb

@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
-    public class CountInputWord
+    public class WordToSearch
     {
-        public bool IsWordCounted(string word, string sentence)
-        {
-            return false;
-        }
+      public string[] searchTerm = { "" };
+
     }
 }
