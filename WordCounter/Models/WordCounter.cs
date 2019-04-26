@@ -3,15 +3,21 @@ using System.Collections.Generic;
 
 namespace WordCounter.Models
 {
-    public class WordToSearch
+    class WordToSearch
     {
+      public string SearchTerm;
+      public string PhraseToSearch;
 
-      public string[] searchTerm = { "" };
-      public string phraseToSearch = "";
-      phraseToSearch.ToLower();
-      string[] phraseArray = phraseToSearch.Split(' ');
+      public WordToSearch(string searchTerm,string phraseToSearch)
+      {
+        SearchTerm = searchTerm;
+        PhraseToSearch = phraseToSearch;
+      }
 
-  
-
+      public string[] MakeSentenceArray()
+      {
+        string[] stringArray = PhraseToSearch.Split(' ');
+        return stringArray;
+      }
     }
 }

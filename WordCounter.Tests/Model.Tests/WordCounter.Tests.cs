@@ -11,20 +11,8 @@ namespace WordCounter.Tests
     [TestMethod]
     public void CheckValueInArray_WordAddedToArray_True()
     {
-      string[] searchTerm = { "" };
-      searchTerm[0] = "cat";
-      Assert.AreEqual("cat", searchTerm[0]);
-    }
-    [TestMethod]
-    public void CheckValueInArray_PhraseArrayCreated_True()
-    {
-      string[] searchTerm = { "" };
-      searchTerm[0] = "cat";
-      string phraseToSearch =  "";
-      phraseToSearch = "the cat in the hat";
-      phraseToSearch.ToLower();
-      string[] phraseArray = phraseToSearch.Split(' ');
-      Assert.AreEqual(searchTerm[0], phraseArray[1]);
+      WordToSearch("cat", "the cat in the hat");
+      Assert.AreEqual("cat", MakeSentenceArray());
     }
   }
 }
