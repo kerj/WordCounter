@@ -24,24 +24,37 @@ namespace WordCounter.Models
         return PhraseToSearch;
       }
 
-      public string[] MakeSearchTermArray(string searchSplit)
+      public string[] MakeSearchTermArray(string SearchTerm)
       {
-        string[] searchArray = searchSplit.Split(' ');
+        string[] searchArray = SearchTerm.Split(' ');
         return searchArray;
       }
 
-      public string[] MakeSentenceArray(string sentenceSplit)
+      public string[] MakeSentenceArray(string PhraseToSearch)
       {
-        string[] stringArray = sentenceSplit.Split(' ');
+        string[] stringArray = PhraseToSearch.Split(' ');
         return stringArray;
       }
 
-      public int DoesItContain()
+      public int DoesItContain(string[] searchArray, string[] stringArray)
       {
-        string[] searchArray = MakeSentenceArray(SearchTerm);
-        string[] stringArray = MakeSearchTermArray(PhraseToSearch);
         int match = Array.IndexOf(stringArray, searchArray[0]);
         return match;
+      }
+      public int CountTheNumberOfTimesTermAppears()
+      {
+        string[] searchArray = MakeSearchTermArray(SearchTerm);
+        string[] stringArray = MakeSentenceArray(PhraseToSearch);
+        int count = 0;
+        int matchStringInArray = DoesItContain(searchArray, stringArray);
+
+        while(matchStringInArray >= 0)
+        {
+          stringArray[matchStringInArray] = "---";
+          matchStringInArray = DoesItContain(searchArray, stringArray);
+          count++;
+        }
+        return count;
       }
     }
 }

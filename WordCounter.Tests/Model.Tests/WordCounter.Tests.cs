@@ -23,8 +23,16 @@ namespace WordCounter.Tests
     [TestMethod]
     public void CheckValueInArray_CheckArrayToContainSearchTerm_True()
     {
-      WordToSearch newSearch = new WordToSearch("cat", "the cat in the hat");
-      Assert.AreEqual(1, newSearch.DoesItContain());
+      WordToSearch newSearch = new WordToSearch("cat", "the bat cat the hat");
+      string[] searchArray = newSearch.MakeSearchTermArray(newSearch.GetSearchTerm());
+      string[] stringArray = newSearch.MakeSentenceArray(newSearch.GetPhraseToSearch());
+      Assert.AreEqual(2, newSearch.DoesItContain(searchArray, stringArray));
+    }
+    [TestMethod]
+    public void CheckValueInArray_CountHowManySearchTermsAppear_3()
+    {
+      WordToSearch newSearch = new WordToSearch("cat", "cat cat it is a cat");
+      Assert.AreEqual(3, newSearch.CountTheNumberOfTimesTermAppears());
     }
   }
 }
