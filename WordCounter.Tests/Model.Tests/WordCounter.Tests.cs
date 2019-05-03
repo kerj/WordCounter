@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+
 using WordCounter.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -45,5 +46,13 @@ namespace WordCounter.Tests
       newSearch.SetDictionary();
       Assert.AreEqual("cat cat it is a cat", newSearch.GetDictionary(key));
     }
+
+    // [TestMethod]
+    // public void CheckValueInArray_CountHowManySearchTermsAppear_3()
+    // {
+    //   WordToSearch newSearch = new WordToSearch("cat", "cat cat it is a cat");
+    //   Assert.AreEqual(3, newSearch.CountTheNumberOfTimesTermAppears());
+    // }
+
   }
 }

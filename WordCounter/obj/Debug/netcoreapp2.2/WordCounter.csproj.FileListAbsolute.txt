@@ -24,3 +24,6 @@ D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\bin\Debug\n
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.Views.dll
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.Views.pdb
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CopyComplete
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\wordcounter\obj\Debug\netcoreapp2.2\Razor\Views\CountDisplay\Index.g.cshtml.cs
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\wordcounter\obj\Debug\netcoreapp2.2\Razor\Views\CountDisplay\New.g.cshtml.cs
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\wordcounter\obj\Debug\netcoreapp2.2\Razor\Views\CountDisplay\Show.g.cshtml.cs
