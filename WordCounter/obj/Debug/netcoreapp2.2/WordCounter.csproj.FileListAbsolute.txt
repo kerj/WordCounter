@@ -7,3 +7,5 @@ D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\obj\Debug\n
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfo.cs
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
 D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+D:\Users\TheKerj\desktop\epicodus19\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json

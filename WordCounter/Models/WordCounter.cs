@@ -5,36 +5,27 @@ namespace WordCounter.Models
 {
     public class WordToSearch
     {
-      private string SearchTerm;
-      private string PhraseToSearch;
+      private string _searchTerm;
+      private string _phraseToSearch;
 
       public WordToSearch(string searchTerm, string phraseToSearch)
       {
-        SearchTerm = searchTerm;
-        PhraseToSearch = phraseToSearch;
+        _searchTerm = searchTerm;
+        _phraseToSearch = phraseToSearch;
       }
 
-      public string GetSearchTerm()
-      {
-        return SearchTerm;
-      }
-
-      public string GetPhraseToSearch()
-      {
-        return PhraseToSearch;
-      }
+      public string SearchTerm { get => _searchTerm; set => _searchTerm = value;}
+      public string PhraseToSearch { get => _phraseToSearch; set => _phraseToSearch = value;}
 
       public string[] MakeSearchTermArray(string SearchTerm)
       {
         string[] searchArray = SearchTerm.ToLower().Split(' ');
-
         return searchArray;
       }
 
       public string[] MakeSentenceArray(string PhraseToSearch)
       {
         string[] stringArray = PhraseToSearch.ToLower().Split(' ');
-
         return stringArray;
       }
 
