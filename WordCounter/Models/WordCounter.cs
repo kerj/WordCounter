@@ -7,6 +7,7 @@ namespace WordCounter.Models
     {
       private string _searchTerm;
       private string _phraseToSearch;
+      private static Dictionary<int, object> _searchs = new Dictionary<int, object> {};
 
       public WordToSearch(string searchTerm, string phraseToSearch)
       {
