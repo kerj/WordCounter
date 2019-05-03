@@ -35,5 +35,15 @@ namespace WordCounter.Tests
       WordToSearch newSearch = new WordToSearch("cat", "cat cat it is a cat");
       Assert.AreEqual(3, newSearch.CountTheNumberOfTimesTermAppears());
     }
+
+    [TestMethod]
+    public void CheckValueInDictionary_KeyValuePresent_true()
+    {
+      WordToSearch newSearch = new WordToSearch("cat", "cat cat it is a cat");
+      int key = newSearch.CountTheNumberOfTimesTermAppears();
+      string value = newSearch.PhraseToSearch;
+      newSearch.SetDictionary();
+      Assert.AreEqual("cat cat it is a cat", newSearch.GetDictionary(key));
+    }
   }
 }
