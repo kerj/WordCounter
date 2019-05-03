@@ -7,16 +7,21 @@ namespace WordCounter.Models
     {
       private string _searchTerm;
       private string _phraseToSearch;
-      private static Dictionary<int, object> _searchs = new Dictionary<int, object> {};
+      private static List<WordToSearch> _searches = new List<WordToSearch> {};
+      private int _id;
 
       public WordToSearch(string searchTerm, string phraseToSearch)
       {
         _searchTerm = searchTerm;
         _phraseToSearch = phraseToSearch;
+        _searches.Add(this);
+        _id = _searches.Count;
       }
 
       public string SearchTerm { get => _searchTerm; set => _searchTerm = value;}
       public string PhraseToSearch { get => _phraseToSearch; set => _phraseToSearch = value;}
+      public static List<WordToSearch> AllSearches { get => _searches; set => _searches = value;}
+      public int Id { get => _id; set => _id = value;}
 
       public string[] MakeSearchTermArray(string SearchTerm)
       {
