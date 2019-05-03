@@ -29,15 +29,17 @@ namespace WordCounter.Controllers
       return View("Index", listOfSearches);
     }
 
-    [HttpPost("/WordCounter/{wordCounterId}")]
+    [HttpGet("/WordCounter/{wordCounterId}/{itemId}")]
     public ActionResult Show(int id, string phraseToSearch)
     {
+
       WordToSearch phrase = WordToSearch.Find(id);
       int theCount = phrase.CountTheNumberOfTimesTermAppears();
       Dictionary<int, string> model = new Dictionary<int, string>();
       model.Add(theCount, phrase.PhraseToSearch);
       // model.Add("Phrase", phrase.PhraseToSearch);
-      return View("Show", model);
+      return View(model);
     }
+
   }
 }

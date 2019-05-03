@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Hello friend!</title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <form action='/WordCounter/@Model.Id/CountDisplay' method="post">
+      <input id='wordCounterId' name='wordCounterId' type='hidden' value='@Model.Id'>
+      <label for="countDisplayDescription">Add a new search</label>
+      <input id="countDisplayDescription" name="countDisplayDescription" type="text">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\wordcounter\\WordCounter.csproj": {}
+    "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {}
   },
   "projects": {
-    "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\wordcounter\\WordCounter.csproj": {
+    "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\wordcounter\\WordCounter.csproj",
+        "projectUniqueName": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
         "projectName": "WordCounter",
-        "projectPath": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\wordcounter\\WordCounter.csproj",
+        "projectPath": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
         "packagesPath": "D:\\Users\\TheKerj\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\wordcounter\\obj\\",
+        "outputPath": "D:\\Users\\TheKerj\\desktop\\epicodus19\\WordCounter.Solution\\WordCounter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
