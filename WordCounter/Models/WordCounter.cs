@@ -26,13 +26,15 @@ namespace WordCounter.Models
 
       public string[] MakeSearchTermArray(string SearchTerm)
       {
-        string[] searchArray = SearchTerm.Split(' ');
+        string[] searchArray = SearchTerm.ToLower().Split(' ');
+
         return searchArray;
       }
 
       public string[] MakeSentenceArray(string PhraseToSearch)
       {
-        string[] stringArray = PhraseToSearch.Split(' ');
+        string[] stringArray = PhraseToSearch.ToLower().Split(' ');
+
         return stringArray;
       }
 
